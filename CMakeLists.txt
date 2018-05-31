@@ -7,12 +7,7 @@ set (thread_local_test_VERSION_MINOR 0)
 set(CMAKE_CXX_STANDARD 14)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-set(CMAKE_CXX_FLAGS " -pthread" )
-
-set(CMAKE_EXE_LINKER_FLAGS "-pthread" )
-
-
-set(CMAKE_CXX_FLAGS "-pthread -m32 -g")
+set(CMAKE_CXX_FLAGS "-pthread -g")
 
 add_subdirectory(static_test_lib)
 add_subdirectory(shared_test_lib)

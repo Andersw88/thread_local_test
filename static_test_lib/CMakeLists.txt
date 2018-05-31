@@ -6,7 +6,7 @@ project (static_test_lib CXX)
 set(CMAKE_CXX_STANDARD 14)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-set(CMAKE_CXX_FLAGS "-pthread -m32 -g" )
+set(CMAKE_CXX_FLAGS "-pthread -g" )
 
 add_library(static_test_lib STATIC test.h test.cpp)
 

@@ -7,7 +7,7 @@ set(CMAKE_CXX_STANDARD 14)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 
-set(CMAKE_CXX_FLAGS "-pthread -m32 -g" )
+set(CMAKE_CXX_FLAGS "-pthread -g" )
 
 
 add_library(shared_test_lib SHARED MakeWorker.h MakeWorker.cpp)
